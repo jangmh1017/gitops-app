@@ -19,4 +19,9 @@ public class ApiOpsController {
 		return "OK";
 	}
 	
+	@GetMapping("/feat-ops")
+	public String OpsCheck() {
+		return "Get - /api/feat-ops";
+	}
+	
 }
